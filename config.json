@@ -1,0 +1,141 @@
+{
+    "version": "1.4.0",
+    "description": "Configuration for high-throughput genomic data processing pipeline",
+    "is_debug": true,
+    "doNotUpdate": false,
+    "localProcess": false,
+    "Nume_Cari": 0,
+    "interval": 30,
+    "connection_string": "SENSITIVE_INFO_REDACTED",
+    "max_seconds_to_run": 11504332800000000,
+    "path_parametri": "/path/to/project/parameters/",
+    "path_programmi": "/path/to/project/programs/",
+    "path_output": "/path/to/project/output/",
+    "path_tmp": "/path/to/temp/FileGeno/",
+    "path_processato": "/path/to/project/processed/",
+    "Folder_Caricamento": "Code_Caricamenti", 
+    "Tmp_Finalreports": "Tmp_FinalReport",
+    "Folder_Mappa": "Mappe",
+    "genomica_archivio": "genomica.Archivio",
+    "Folder_Verif": "_ICAR",
+    "Mappa_verif_parentela": "554_ICAR",
+    "lista_simbolo": ["\t", ",", " \t", "-", ";"],
+    "log_level": "3",
+    "sleep_time": 120,
+    "DATABASE_ERROR":{
+        "msg": "Unable to connect to the database. Please check network connectivity and credentials."
+    },
+    "decode_genotype": {
+        "BB": "0",
+        "AB": "1",
+        "AA": "2",
+        "--": "5"
+    },
+    "decode_text_log_XDB": {
+        "c_A": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Incorrect file type"
+        },
+        "c_B": { 
+            "bit_ok": 0,
+            "bit_elaborato": 0,
+            "errori_elab": "An error occurred. Please contact the system administrator."
+        },
+        "m_A": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Error with the map"
+        },
+        "m_B": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "The uploaded file is invalid"
+        },
+        "m_C":{
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Uploaded file contains more than one file"
+        },
+        "m_D": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Map loaded (1)"
+        },
+        "m_E": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Map loaded (2)"
+        },
+        "m_F": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Map loaded (3)"
+        },
+        "g_A": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final report file with missing column errors"
+        },
+        "g_B": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final report file not found or incorrectly named"
+        },
+        "g_C": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final Report file with errors (1)"
+        },
+        "g_D": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Genotype processing completed"
+        },
+        "g_E": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final Report file with errors (2)"
+        },
+        "g_F": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final report map not found or does not match"
+        },
+        "g_G": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Final Report file with errors (2)"
+        },
+        "g_H": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Uploaded file contains more than one file"
+        },
+        "g_I": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Genotypes ready for loading"
+        },
+        "g_K": {
+            "bit_ok": 1,
+            "bit_elaborato": 1,
+            "errori_elab": "Genotypes ready for loading"
+        },
+        "g_L": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Sample number does not correspond"
+        },
+        "g_M": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Chip exists but separator different from those in the parameter list"
+        },
+        "g_N": {
+            "bit_ok": 0,
+            "bit_elaborato": 1,
+            "errori_elab": "Number or Names of SNPs different from an already loaded map. Correct or load new map"
+        }
+    }
+}
